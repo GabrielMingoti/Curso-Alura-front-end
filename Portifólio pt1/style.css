@@ -97,6 +97,10 @@
         background-color: #272727;
     }
 
+    span:hover {
+        color: #22D4FD;
+    }
+
    /* p {
         font-weight: bold;
     }*/
