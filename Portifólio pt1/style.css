@@ -15,21 +15,6 @@
         background-color: black;
         color: white;
     }
-    
-    /*.teste {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;      
-    }*/
-
-    .titulo-blog {
-        font-family: 'Krona One', sans-serif;
-        /*font-weight: 400;
-        font-style: normal;*/
-        font-size: 36px;
-        color: aquamarine;
-
-    }
 
     .titulo-destaque {
         color: #22D4FD;
@@ -42,20 +27,6 @@
         justify-content: space-between;
     }
 
-    .apresentacao__botoes{
-        font-family: 'Montserrat', sans-serif;
-        background-color: #22D4FD;
-        width: 280px;
-        text-align: center;
-        border-radius: 16px;
-        margin: 5px;
-        font-size: 24px;
-        font-weight: 600;
-        padding: 21.5px 0;
-        text-decoration: none;
-        color: #000000;
-    }
-
     .apresentacao__conteudo {
         width: 615px;
         display: flex;
@@ -63,18 +34,16 @@
         gap: 40px;
     }
 
-   /* p {
-        font-weight: bold;
-    }*/
+    .titulo-blog {
+        font-family: 'Krona One', sans-serif;
+        /*font-weight: 400;
+        font-style: normal;*/
+        font-size: 36px;
+        color: aquamarine;
 
-    .apresentacao__links {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        gap: 32px;
     }
 
+    
     .paragrafo {
         font-family: 'Montserrat', sans-serif;
         font-size: 24px;
@@ -87,8 +56,52 @@
         padding: 5px;*/
 
 }
+
+    .apresentacao__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 32px;
+    }
+
+    
+    .apresentacao__links__h2 {
+        font-family: 'Krona One', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .apresentacao__botoes{
+        font-family: 'Montserrat', sans-serif;
+        /* background-color: #22D4FD; */
+        width: 378px;
+        height: 68px;
+        text-align: center;
+        border: 2px solid #22D4FD;
+        border-radius: 8px;
+        border-color: #22D4FD;
+        margin: 5px;
+        font-size: 24px;
+        font-weight: 600;
+        padding: 16px;
+        gap: 16px;
+        text-decoration: none;
+        color: #f6f6f6;
+    }
+
+   /* p {
+        font-weight: bold;
+    }*/
+
     /*span {
         color: #22D4FD;
         border: 1px solid #22D4FD;
         padding: 3px;
+    }*/
+
+    /*.teste {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;      
     }*/
