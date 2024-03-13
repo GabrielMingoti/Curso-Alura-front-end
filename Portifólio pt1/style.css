@@ -73,21 +73,28 @@
     }
 
     .apresentacao__botoes{
+        display: flex;
+        justify-content: center;
+        gap: 16px;
         font-family: 'Montserrat', sans-serif;
         /* background-color: #22D4FD; */
         width: 378px;
-        height: 68px;
+        /* height: 68px; */
         text-align: center;
         border: 2px solid #22D4FD;
         border-radius: 8px;
-        border-color: #22D4FD;
-        margin: 5px;
+        /* border-color: #22D4FD; */
+        /* margin: 5px; */
         font-size: 24px;
         font-weight: 600;
-        padding: 16px;
-        gap: 16px;
+        padding: 21.5px 0;
+
         text-decoration: none;
-        color: #f6f6f6;
+        color: #f6f6f6;         
+    }
+
+    .apresentacao__botoes:hover {
+        background-color: #272727;
     }
 
    /* p {
