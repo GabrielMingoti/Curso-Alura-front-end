@@ -3,6 +3,15 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,400&display=swap')*/
 
+:root {
+    --cor-primaria: #004225;
+    --cor-secundaria: #F5F5DC;
+    --cor-terciaria: #FFCF9D;
+    --cor-hover:#272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
 
 * {
     margin: 0;
@@ -10,10 +19,9 @@
 }    
 
     body {
-        /* height: 100vh; */
         box-sizing: border-box; 
-        background-color: black;
-        color: white;
+        background-color: var(--cor-primaria);
+        color: var(--cor-secundaria);
     }
 
     .cabecalho {
@@ -24,30 +32,25 @@
     .cabecalho_menu { 
         display: flex;
         gap: 80px;
-        /* justify-content: center; */
-         /* align-items: center;  */
     } 
 
     .cabecalho_menu_link {
-        font-family: 'Montserrat', sans-serif;
+        font-family: var(--fonte-secundaria);
         font-size: 24px;
         font-weight: 600;
-        color: #22D4FD;
-        /* margin: 0 10px; */
-        /* padding: 10px 15px; */
+        color: var(--cor-terciaria);
         text-decoration: none;
     }
 
     .cabecalho_menu_link:hover {
-        color: #007bbf;
+        color: #D6D46D;
     }
 
     .titulo-destaque {
-        color: #22D4FD;
+        color: var(--cor-terciaria);
     }
 
     .apresentacao {
-        /*margin: 10% 15%; */
         padding: 5% 15%;
         display: flex;
         align-items: center;
@@ -62,31 +65,23 @@
     }
 
     .apresentacao__conteudo__texto {
+        font-family: var(--fonte-primaria);
         text-decoration: none;
-        /* color: #22D4FD; */
+        font-size: 36px;
+        color: var(--cor-terciaria);
     }
 
     .titulo-blog {
-        font-family: 'Krona One', sans-serif;
-        /*font-weight: 400;
-        font-style: normal;*/
+        font-family: var(--fonte-primaria);
         font-size: 36px;
-        color: aquamarine;
+        color: var(--cor-terciaria);
 
     }
 
     
     .paragrafo {
-        font-family: 'Montserrat', sans-serif;
+        font-family: var(--fonte-secundaria);
         font-size: 24px;
-        /*font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;*/
-        /*color: #fff;  
-        margin: 10px;
-        border: 2px solid #fff;
-        padding: 5px;*/
-
 }
 
     .apresentacao__links {
@@ -99,7 +94,7 @@
 
     
     .apresentacao__links__h2 {
-        font-family: 'Krona One', sans-serif;
+        font-family: var(--fonte-primaria);
         font-weight: 400;
         font-size: 24px;
     }
@@ -108,50 +103,36 @@
         display: flex;
         justify-content: center;
         gap: 16px;
-        font-family: 'Montserrat', sans-serif;
-        /* background-color: #22D4FD; */
+        font-family: var(--fonte-secundaria);
         width: 378px;
-        /* height: 68px; */
         text-align: center;
-        border: 2px solid #22D4FD;
+        border: 2px solid var(--cor-terciaria);
         border-radius: 8px;
-        /* border-color: #22D4FD; */
-        /* margin: 5px; */
         font-size: 24px;
         font-weight: 600;
         padding: 21.5px 0;
-
         text-decoration: none;
-        color: #f6f6f6;         
+        color: var(--cor-secundaria);         
     }
 
     .apresentacao__botoes:hover {
-        background-color: #272727;
+        background-color: var(--cor-hover);
     }
 
     span:hover {
-        color: #22D4FD;
+        color: var(--cor-terciaria);
     }
 
     .rodape {
         padding: 24px;
-        color: black;
-        background-color: #22D4FD;
+        color: var(--cor-primaria);
+        background-color: var(--cor-terciaria);
         text-align: center;
-        font-family: 'Montserrat', sans-serif;
+        font-family: var(--fonte-secundaria);
         font-size: 24px;
         font-weight: 400;
     }
-   /* p {
-        font-weight: bold;
-    }*/
-
-    /*span {
-        color: #22D4FD;
-        border: 1px solid #22D4FD;
-        padding: 3px;
-    }*/
-
+    
     /*.teste {
         display: flex;
         flex-direction: column;
