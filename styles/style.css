@@ -58,7 +58,7 @@
     }
 
     .apresentacao__conteudo {
-        width: 50%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 40px;
@@ -148,8 +148,13 @@
 
         .apresentacao {
             flex-direction: column-reverse;    
+            padding: 5%; 
         }
-       
+
+        .apresentacao__conteudo {
+            width: auto;
+        }
+    }
     
     /*.teste {
         display: flex;
